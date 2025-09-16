@@ -1,12 +1,16 @@
 # Roteiro Aula 1 - Controlador bang bang  
 
-O controle bang bang é um controlador em malha fechada bem simples. Geralmente utiliza um sensor e um atuador que variam entre dois estados (Ligado e desligado, quente ou frio etc). É frequentemente utilizado em eletrodomésticos, como algumas cafeteiras. Nesse caso a cafereira utiliza uma resistencia ligada em seria com um reostato. Quando a temperatura esta abaixo de 100°C (por exemplo) o reostado abre o contado, desligando a resistência, que para de aquecer a água. Depois de algum tempo a temperatura cai e o contato no reostato é reestabelecido, ligando novamente a resistencia. Esse controlador simples garante que a temperatura não ultrapasse muito o valor desejada.
+O controle bang-bang é um controlador em malha fechada bem simples. Geralmente, utiliza um sensor e um atuador que variam entre dois estados (ligado e desligado, quente ou frio etc.). É frequentemente utilizado em eletrodomésticos, como algumas cafeteiras. 
+
+Nesse caso, a cafeteira utiliza uma resistência ligada em série com um reostato. Quando a temperatura está abaixo de 100 °C (por exemplo), o reostato abre o contato, desligando a resistência, que para de aquecer a água. Depois de algum tempo, a temperatura cai e o contato no reostato é restabelecido, ligando novamente a resistência.
+
+Esse controlador simples garante que a temperatura se mantenha em um intervalo limitado em torno da temperatura desejada.
 
 ## Controle bang bang para seguidor de linha
 
-Nesse experimento é utilizado esse tipo de contolador para controlar um seguidor de linha. O robô opera entre 3 estados: mover em frente, mover para esqueda e mover pra direita. Quando a linha está centralizada o robô segue em frente. Quando a linha está a direita move pra direita e quando está a esquerda move pra esquerda.
+Nesse experimento é utilizado esse tipo de controlador para controlar um seguidor de linha. O robô opera entre três estados: mover em frente, mover para a esquerda e mover para a direita. Quando a linha está centralizada, o robô segue em frente. Quando a linha está à direita, move para a direita, e quando está à esquerda, move para a esquerda.
 
-O sensor de linha foi ajustado para diferenciar digitalmente entre oque é linha e oque não é. Onde tem linha vale 1 e onde não tem vale 0.
+O sensor de linha foi ajustado para diferenciar digitalmente entre o que é linha e o que não é: onde há linha o valor é 1, e onde não há, o valor é 0.
 
 ### Item 1 - Controle usando 1 sensor
 
