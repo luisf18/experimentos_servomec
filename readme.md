@@ -15,11 +15,12 @@ O robô utiliza um sistema de comando de texto para executar testes, fazer leitu
 | reset | reinicia o robô |
 | start | inicia o código principal |
 | stop  | para o código principal |
+| line | Lê o valor dos sensores analógico e digitalizado. |
 | move [x] | move pra frente com PWM [x] (de 0 a 255) |
-| speed [x] | parametro de velocidade de deslocamento. lê ou escreve o valor. (0 a 255). |
-| giro [x] | parametro de velocidade de rotação. lê ou escreve o valor. (0 a 255). |
-| trig [x] | parametro conversão do sinal analogico dos sensores para digital. lê ou escreve o valor. (0 a 1023). |
-| sensor | Lê o valor dos sensores analógico e digitalizado. |
+| vel [x] | Velocidade de deslocamento. lê ou escreve o valor. (0 a 255). |
+| giro [x] | Velocidade de rotação. lê ou escreve o valor. (0 a 255). |
+| contagem [x] | Número de sensores usado no controle. |
+| trig [x] | Conversão do sinal analogico dos sensores para digital. lê ou escreve o valor. (0 a 1023). |
 
 ## Aplicativo para comunicação bluetooth
 
